@@ -2,12 +2,12 @@
 msg_s: 		.asciiz "\r\nSuccess!Location:"
 msg_f:		.asciiz "\r\nFail!\r\n"
 end:		.asciiz "\r\n"
-buf:		.space  20
+buf:		.space  21
 
 		.text
 		.globl main
 main:		la $a0,buf
-		la $a1,20
+		la $a1,21
 		li $v0,8
 		syscall
 		
