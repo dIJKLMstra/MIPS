@@ -1,2 +1,2 @@
 # MIPS
-homework of Computer Organzation and Design
+homework of Computer Organization and Design
